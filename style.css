@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"poppins";
+}
+body{
+    background-color: teal;
+}
+header{
+    background-color:white;
+}
+header > h1{
+    color: tomato;
+    text-align:center;
+}
+.scoreboard{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius:4px;
+    text-align:center;
+    width: 200px;
+    font-size:40px;
+    position: relative;
+}
+.badge{
+    background-color:wheat;
+    font-size: 14px;
+    padding: 2px 10px;
+}
+#user-label{
+    position:absolute;
+    top:15px;
+    left:-20px;
+}
+#comp-label{
+    position:absolute;
+    top:15px;
+    right:-30px;
+}
+.result{
+    font-size: 40px;
+    color: blanchedalmond;
+}
+.result > p{
+    text-align:center;
+    font-weight:bold;
+}
+.choices{
+    margin: 50px 0px;
+    text-align:center;
+}
+.choice{
+    border:4px solid white;
+    border-radius: 50%;
+    padding:50px;
+    margin: 0 15px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.choice:hover{
+    cursor:pointer;
+    background-color:white;
+}
+.action > p {
+    text-align:center;
+    font-weight:bold;
+    font-size:20px;
+    color:white;
+}
